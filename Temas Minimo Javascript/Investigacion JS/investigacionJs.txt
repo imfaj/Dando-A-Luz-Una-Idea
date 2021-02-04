@@ -1,0 +1,72 @@
+Tutorial de temas mínimos para investigar en JavaScript
+
+Temas a tocar:
+    Html
+    jQuery
+    Listeners de eventos
+    Ajax
+    Manipulación del DOM
+    Node y NPM
+    Servicios HTTP
+    Funciones nativas de JavaScript
+    APIs de visualización
+    MQTT
+
+Pasos:
+    1. Crear un html sencillo llamado index.html
+        1-a. Debe contener mínimo tres divs, el primero con dos radio buttons y los otros dos divs dentro del primero
+        1-b. El segundo div debe tener 3 inputs (uno de texto, uno de email y un textarea) y un botón
+        1-c. El tercer div debe contener 4 inputs de texto y un botón
+
+    2. jQuery del lado cliente
+        2-a. Importar jQuery mediante el cdn
+        2-b. Escuchar los eventos de "change" en los inputs del segundo div para validar que no posean un valor en blanco y que el email tenga un formato aceptado
+        2-c. Añadir la temperatura mediante un servicio en línea
+            Recomendaciones:
+            I- Utilizar ajax para obtener los datos
+            II- Este API es bien completo https://fcc-weather-api.glitch.me/api/current?lat=9.937542&lon=-84.061180
+	    III- Éste tipo de "llamadas" mediante ajax les van a ser muy utiles para obtener los datos del servidor del HWthon (REQUERIMIENTO CALIFICADO EN EL EVENTO)
+        2-d. Utilizar los radio buttons para mostrar el div 2 o 3 respectivamente, "escondiendo" el no seleccionado
+
+    3. JavaScript del lado del servidor
+        3-a. Instalar NPM y Node
+        3-b. Crear un archivo JavaScript que despliegue la fecha cuando se ejecuta
+        3-c. Realizar un servicio HTTP de tipo POST
+            Recomendaciones:
+            I- Estudiar que es express y como utilizarlo https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
+            II- Es más sencillo probar un servicio tipo GET en el browser
+        3-d. Llamar el html creado en el primer paso como archivos estáticos
+        3-e. En el html al presionar el boton del tercer div hacer una llamada al servicio POST realizado previamente adjuntando en el body los 4 inputs de texto del tercer div
+        3-f. Retornar un objeto con los 4 datos recibidos utilizando las funciones reverse, slice(4, 12), toUpperCase y charAt(3) 
+            Recomendación:
+            I- Entender éstos métodos y demás en https://www.w3schools.com/js/js_string_methods.asp
+        3-g. Crear una cuenta en Heroku y realizar un deploy del servidor recién creado
+            Recomendación:
+            I- Toda la información de como hacerlo se encuentra acá https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction
+	    II- En el nombre del app escriban el nombre que va a tener su equipo + xyz, por ejemplo imaginexyz :P (ES BIEN IMPORTANTE QUE DEFINAN EL NOMBRE)
+        3-h. Compartirnos el url de Heroku para revisar la aplicación
+        
+    4. APIs de vizualización para investigar
+	4-1. Gráficos de datos sencillos de conectar
+	    I- https://developers.google.com/chart/
+	    II- https://www.highcharts.com/demo/
+	4-2. Mapas programables (normalmente requieren un API key)
+	    I- https://developers.google.com/maps/documentation/javascript/tutorial
+	    II- https://www.mapbox.com/mapbox-gl-js/example/simple-map/
+	4-3. La idea es que puedan utilizar los datos obtenidos del servidor (Ajax, paso 2-c) y generen vizualizaciones dinámicas en base a los datos obtenidos por sus sensores
+	    I- Acá les dejo un link del que pueden hacer pruebas de obtención de datos (GET con Ajax), https://iot-xyz.herokuapp.com/iot
+	    II- Como está imposible de entender, les toca crear algún gráfico para visualizar la información, prueben varios, inventen
+	    III- Ya pueden probar con datos similares a los que enviarían sus sensores y probar cual se ajustaría mejor a lo que desean transmitir
+	4-4. Actualizar la aplicación subida en Heroku con los gráficos que deseen incorporar
+
+    5. MQTT
+	5-a. En la carpeta adjunta va el código base que se utilizó para el juego de Donkey Kong
+	5-b. Existe un archivo "server.js" que es el el servidor (para el juego no se usó pero para que entiendan como conectarse)
+	5-c. En la carpeta que se llama game está el juego, ahí pueden estudiar el código y ver como conectarse a MQTT mediante WebSocketts
+	    I- De momento el servidor que utilizamos el otro día está offline, nosotros vamos a brindarles uno diferente para el evento, por ahora pueden ir probando con los Add-ons de Heroku, hay uno que se llama CloudMQTT
+
+La idea de ésto es que se familiaricen con conceptos y tecnologías que les van a ayudar muchísimo en el desarrollo del producto que deseen presentar.
+Cualquier duda o recomendación nos la pueden preguntar y con gusto los ayudaremos.
+
+Feliz semana.
+
