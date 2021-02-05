@@ -7,7 +7,7 @@
 Propuesta que pretende mejorar la experiencia durante el parto.
 
 <p align="center">
-  <img width="auto" height="auto" src="./Adicionales/Pitch/Slide9.png">
+  <img width="auto" height="200" src="./Adicionales/Pitch/Slide9.PNG">
 </p><br>
 <p align="left">Concretamente, <i>¿Qué nos hace novedosos?</i><br>
 </p>
@@ -19,7 +19,7 @@ Propuesta que pretende mejorar la experiencia durante el parto.
   Todo con información que ya por sí mismas ellas nos están dando. Sintonizando cada aspecto a cómo su cuerpo vaya pasando por las etapas del parto, adecuando el ambiente a ella.<br>
 </p> 
 <p align="center">
-  <img width="150" height="auto" src="./Adicionales/Pitch/Slide12.png"><br>
+  <img width="150" height="auto" src="./Adicionales/Pitch/Slide12.PNG"><br>
   Somos un grupo de estudiantes de distintas áreas de la ingeniería inquietos por utilizar nuestro ingenio y creatividad para aportar un algo a la sociedad.<br><br>
   En este caso en particular motivados al saber que muchas mujeres tienen malos recuerdos de lo que debería ser uno de los más hermosos de su vida y al cual todos estamos relacionados de una u otra manera. Por lo <strong>“hemos dado a luz”</strong>,  esta hermosa propuesta.<br>
 </p> 
