@@ -65,6 +65,15 @@ Nuestro prototipo cuenta con una bolita para obtener estos datos, los cuales son
   <i>Improving your childbirth with love.</i>
 </p>
 
+___
+___
 
-___
-___
+## Equipo <br>
+<p align="center">
+ <a href="https://github.com/imfaj" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/16785324?s=460&u=4e1358e78e32e917a584956020735f26378fd575&v=4" alt="imfaj github profile" style="width:84px;height:84px;">
+ </a>
+ <a href="https://github.com/Jaleab" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/27842226?s=460&u=c86204dd2ac19f5471b9207cc2cba664bdf7ab32&v=4" alt="Jaleab github profile" style="width:84px;height:84px;">
+ </a>
+</p>
